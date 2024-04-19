@@ -1,0 +1,28 @@
+.homeSection {
+    min-height: inherit;
+    min-width: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    flex-direction: column;
+
+    h1 {
+        font-size: 40px;
+    }
+
+    p {
+        margin-top: 16px;
+        font-size: 24px;
+    }
+
+    @media screen and (max-width: 768px) {
+        h1 {
+            font-size: 20px;
+        }
+        
+        p {
+            font-size: 16px;
+        }
+    }
+}
